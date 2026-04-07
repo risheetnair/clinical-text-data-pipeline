@@ -4,7 +4,7 @@ import pandas as pd
 from typing import Optional
 
 RAW_DATA_DIR = "../data/raw"
-MAX_FILES_PER_FOLDER = 50
+MAX_FILES_PER_FOLDER = 100
 
 def parse_medquad_file(file_path: str, source_folder: str) -> list[dict]:
     """
