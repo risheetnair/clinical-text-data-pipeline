@@ -8,7 +8,7 @@ EMBEDDINGS_PATH = os.path.join(BASE_DIR, "data", "embeddings", "symptoms_embeddi
 METADATA_PATH = os.path.join(BASE_DIR, "data", "embeddings", "symptoms_metadata.csv")
 OUTPUT_DIR = os.path.join(BASE_DIR, "data", "clusters")
 
-N_CLUSTERS = 5
+N_CLUSTERS = 4
 RANDOM_STATE = 42
 
 
